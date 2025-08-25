@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanket Mungikar - Resume</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 3px solid #3b82f6;
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+        .name {
+            font-size: 2.5em;
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        .title {
+            font-size: 1.3em;
+            color: #64748b;
+            margin-bottom: 15px;
+        }
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        .section {
+            margin-bottom: 30px;
+        }
+        .section-title {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #1e40af;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 5px;
+            margin-bottom: 15px;
+        }
+        .job {
+            margin-bottom: 20px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .company {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+        .period {
+            color: #64748b;
+            font-size: 0.9em;
+        }
+        .position {
+            font-style: italic;
+            color: #475569;
+            margin-bottom: 10px;
+        }
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 15px;
+        }
+        .skill-category {
+            background: #f8fafc;
+            padding: 15px;
+            border-radius: 8px;
+            border-left: 4px solid #3b82f6;
+        }
+        .skill-category h4 {
+            margin: 0 0 10px 0;
+            color: #1e40af;
+        }
+        .skill-list {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .project {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8fafc;
+            border-radius: 8px;
+        }
+        .project-title {
+            font-weight: bold;
+            color: #1e40af;
+            margin-bottom: 5px;
+        }
+        .project-tech {
+            color: #64748b;
+            font-size: 0.9em;
+            margin-bottom: 10px;
+        }
+        .education {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        .school {
+            font-weight: bold;
+        }
+        .gpa {
+            color: #64748b;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="name">Sanket Mungikar</div>
+        <div class="title">Software Engineer & Full-Stack Developer</div>
+        <div class="contact-info">
+            <span>📧 sanketmungikar25@gmail.com</span>
+            <span>📱 +1 (714) 488-4098</span>
+            <span>📍 Livermore, CA</span>
+        </div>
+        <div class="contact-info">
+            <span>🔗 linkedin.com/in/sanketmungikar</span>
+            <span>🐙 github.com/sanketmungikar</span>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Professional Summary</div>
+        <p>Passionate Software Engineer with expertise in full-stack development, AI-powered solutions, and cloud technologies. Experienced in building scalable web applications using React, Next.js, Node.js, and AWS. Strong background in real-time systems, authentication, and performance optimization.</p>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Technical Skills</div>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Programming Languages</h4>
+                <ul class="skill-list">
+                    <li>Python, TypeScript, JavaScript (ES6+)</li>
+                    <li>HTML5, CSS3, Java, C#</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Frameworks & Libraries</h4>
+                <ul class="skill-list">
+                    <li>React.js, Next.js, Node.js, Angular</li>
+                    <li>React Native, .NET, RxJS, FastAPI</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Cloud & DevOps</h4>
+                <ul class="skill-list">
+                    <li>AWS (EC2, S3, RDS, Amplify, Bedrock)</li>
+                    <li>Docker, Kubernetes, Azure DevOps</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Databases & Tools</h4>
+                <ul class="skill-list">
+                    <li>PostgreSQL, MongoDB, MySQL, Redis</li>
+                    <li>GraphQL, REST APIs, Prisma ORM</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Work Experience</div>
+        
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Rocket Mortgage</span>
+                <span class="period">May 2025 – Aug 2025</span>
+            </div>
+            <div class="position">Software Engineer Intern</div>
+            <div class="location">Detroit, MI</div>
+            <ul>
+                <li>Developed RAG-powered chat feature using LLMs and AWS Bedrock</li>
+                <li>Implemented OAuth 2.0 authentication with Auth0, MFA, SSO, and role-based ACLs</li>
+                <li>Built Angular-based frontend using Rocket Design System</li>
+                <li>Utilized NgRx for state management and optimized performance</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="company">PopVia LLC</span>
+                <span class="period">Aug 2024 – April 2025</span>
+            </div>
+            <div class="position">Full-Stack Engineer</div>
+            <div class="location">Colorado, USA</div>
+            <ul>
+                <li>Designed Next.js/TypeScript platform with Stripe payment integration</li>
+                <li>Implemented real-time ticket tracking with WebSockets</li>
+                <li>Built seller dashboard with CRUD capabilities and analytics</li>
+                <li>Improved response time by 11% through Redis caching and rate limiting</li>
+            </ul>
+        </div>
+
+        <div class="job">
+            <div class="job-header">
+                <span class="company">Atos</span>
+                <span class="period">Jan 2020 – June 2022</span>
+            </div>
+            <div class="position">Software Engineer</div>
+            <div class="location">Mumbai, India</div>
+            <ul>
+                <li>Developed React/React Native scheduling screen for 179K+ rated app</li>
+                <li>Built interactive map-based doctor and facility locator</li>
+                <li>Reduced search latency by 43% through map optimization</li>
+                <li>Implemented Redux state management and Jest testing</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Projects</div>
+        
+        <div class="project">
+            <div class="project-title">Inventory Management Dashboard</div>
+            <div class="project-tech">Next.js, Shadcn, Zustand, Node.js, Prisma ORM, PostgreSQL, AWS</div>
+            <p>Full-stack inventory management system with real-time tracking, analytics, and user management capabilities.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">RocketMindAI - AI Code Analysis Tool</div>
+            <div class="project-tech">Angular, Python, FastAPI, AWS Bedrock, MCP Server, LLMs, RAG</div>
+            <p>AI-powered tool for analyzing large codebases, providing onboarding documentation, architecture diagrams, and automated code quality reviews.</p>
+        </div>
+
+        <div class="project">
+            <div class="project-title">Event Ticketing Platform</div>
+            <div class="project-tech">Next.js, TypeScript, Stripe API, WebSockets, Redis</div>
+            <p>Modern event ticketing platform with real-time availability tracking, payment processing, and comprehensive seller management.</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Education</div>
+        
+        <div class="education">
+            <div>
+                <div class="school">Master of Science in Computer Science</div>
+                <div>California State University, Fullerton, CA</div>
+            </div>
+            <div class="gpa">GPA: 3.6/4.0</div>
+        </div>
+        <div class="period">Aug 2022 – May 2024</div>
+
+        <div class="education">
+            <div>
+                <div class="school">Bachelor of Engineering in Computer Science</div>
+                <div>Marathwada Institute of Technology, Aurangabad, India</div>
+            </div>
+            <div class="gpa">GPA: 3.5/4.0</div>
+        </div>
+        <div class="period">June 2015 – Aug 2019</div>
+    </div>
+
+    <div class="section">
+        <div class="section-title">Additional Skills</div>
+        <p>Jest, Kafka, Stripe API, WebSockets, OAuth 2.0, Auth0, LLMs, RAG, MCP Server, Intelligent Chunking, Shadcn, Rate Limiting, Real-time Updates, System theme preference detection, LocalStorage for theme persistence.</p>
+    </div>
+</body>
+</html>

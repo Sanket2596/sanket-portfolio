@@ -94,6 +94,13 @@ export default function Hero() {
           <motion.button
             whileHover={{ scale: 1.05, y: -2 }}
             whileTap={{ scale: 0.95 }}
+            onClick={() => {
+              // Download the actual PDF resume
+              const link = document.createElement('a');
+              link.href = '/resume.pdf';
+              link.download = 'Sanket_Mungikar_Resume.pdf';
+              link.click();
+            }}
             className="flex items-center gap-2 bg-gradient-to-r from-primary-500 to-primary-600 hover:from-primary-600 hover:to-primary-700 text-white px-8 py-4 rounded-lg font-semibold transition-all duration-200 shadow-lg hover:shadow-xl"
           >
             <Download size={20} />
