@@ -146,6 +146,22 @@ export default function Hero() {
           >
             <Linkedin size={24} className="text-white" />
           </motion.a>
+          
+          <motion.a
+            href="/download-thumbnail.html"
+            target="_blank"
+            rel="noopener noreferrer"
+            whileHover={{ scale: 1.1, y: -2 }}
+            whileTap={{ scale: 0.95 }}
+            className="p-3 bg-secondary-800 hover:bg-secondary-700 rounded-lg transition-colors duration-200"
+            title="Download Portfolio Thumbnail"
+          >
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+              <rect x="3" y="3" width="18" height="18" rx="2" ry="2"/>
+              <circle cx="8.5" cy="8.5" r="1.5"/>
+              <polyline points="21,15 16,10 5,21"/>
+            </svg>
+          </motion.a>
         </motion.div>
 
         {/* Scroll Indicator */}

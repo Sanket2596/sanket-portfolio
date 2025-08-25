@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Download Portfolio Thumbnail - Sanket Mungikar</title>
+    <style>
+        body {
+            font-family: 'Inter', Arial, sans-serif;
+            background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+            color: #f8fafc;
+            margin: 0;
+            padding: 40px 20px;
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container {
+            max-width: 800px;
+            text-align: center;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            padding: 40px;
+            backdrop-filter: blur(10px);
+        }
+        
+        h1 {
+            background: linear-gradient(135deg, #60a5fa 0%, #8b5cf6 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        .description {
+            color: #cbd5e1;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+            line-height: 1.6;
+        }
+        
+        .thumbnail-preview {
+            margin: 40px 0;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        .thumbnail-preview img {
+            width: 100%;
+            max-width: 600px;
+            height: auto;
+            display: block;
+        }
+        
+        .download-section {
+            margin: 40px 0;
+        }
+        
+        .download-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #60a5fa 0%, #8b5cf6 100%);
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.1em;
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 20px rgba(96, 165, 250, 0.3);
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 15px 30px rgba(96, 165, 250, 0.4);
+        }
+        
+        .download-btn:active {
+            transform: translateY(0);
+        }
+        
+        .formats {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+        }
+        
+        .format-btn {
+            background: rgba(255, 255, 255, 0.1);
+            color: #cbd5e1;
+            padding: 10px 20px;
+            border-radius: 8px;
+            text-decoration: none;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: all 0.3s ease;
+        }
+        
+        .format-btn:hover {
+            background: rgba(255, 255, 255, 0.2);
+            color: white;
+            border-color: rgba(255, 255, 255, 0.3);
+        }
+        
+        .features {
+            margin-top: 40px;
+            text-align: left;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .features h3 {
+            color: #60a5fa;
+            margin-bottom: 20px;
+        }
+        
+        .features ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .features li {
+            padding: 8px 0;
+            color: #cbd5e1;
+            position: relative;
+            padding-left: 25px;
+        }
+        
+        .features li:before {
+            content: "✨";
+            position: absolute;
+            left: 0;
+            color: #8b5cf6;
+        }
+        
+        .back-link {
+            margin-top: 40px;
+        }
+        
+        .back-link a {
+            color: #60a5fa;
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .back-link a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Portfolio Thumbnail</h1>
+        <p class="description">
+            Download a beautiful thumbnail image of my portfolio website. Perfect for social media sharing, 
+            LinkedIn, GitHub, or any professional use.
+        </p>
+        
+        <div class="thumbnail-preview">
+            <img src="/portfolio-thumbnail.svg" alt="Portfolio Thumbnail Preview" />
+        </div>
+        
+        <div class="download-section">
+            <h3>Download Options</h3>
+            <a href="/portfolio-thumbnail.svg" download="Sanket_Portfolio_Thumbnail.svg" class="download-btn">
+                📥 Download SVG Thumbnail
+            </a>
+            
+            <div class="formats">
+                <a href="#" onclick="downloadAsPNG()" class="format-btn">🖼️ Convert to PNG</a>
+                <a href="#" onclick="downloadAsJPG()" class="format-btn">🖼️ Convert to JPG</a>
+                <a href="#" onclick="copyToClipboard()" class="format-btn">📋 Copy SVG Code</a>
+            </div>
+        </div>
+        
+        <div class="features">
+            <h3>Thumbnail Features:</h3>
+            <ul>
+                <li>Professional 1200x630 dimensions (perfect for social media)</li>
+                <li>Beautiful gradient backgrounds matching your portfolio theme</li>
+                <li>Animated floating particles and glowing effects</li>
+                <li>Glass morphism design elements</li>
+                <li>Tech stack icons (React, Next.js, Node.js, AWS, TypeScript)</li>
+                <li>High-quality SVG format (scalable to any size)</li>
+                <li>Ready for LinkedIn, Twitter, GitHub, and other platforms</li>
+            </ul>
+        </div>
+        
+        <div class="back-link">
+            <a href="/">← Back to Portfolio</a>
+        </div>
+    </div>
+
+    <script>
+        function downloadAsPNG() {
+            const svg = document.querySelector('.thumbnail-preview img');
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = 1200;
+            canvas.height = 630;
+            
+            const img = new Image();
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, 1200, 630);
+                const link = document.createElement('a');
+                link.download = 'Sanket_Portfolio_Thumbnail.png';
+                link.href = canvas.toDataURL('image/png');
+                link.click();
+            };
+            img.src = svg.src;
+        }
+        
+        function downloadAsJPG() {
+            const svg = document.querySelector('.thumbnail-preview img');
+            const canvas = document.createElement('canvas');
+            const ctx = canvas.getContext('2d');
+            
+            canvas.width = 1200;
+            canvas.height = 630;
+            
+            const img = new Image();
+            img.onload = function() {
+                ctx.drawImage(img, 0, 0, 1200, 630);
+                const link = document.createElement('a');
+                link.download = 'Sanket_Portfolio_Thumbnail.jpg';
+                link.href = canvas.toDataURL('image/jpeg', 0.9);
+                link.click();
+            };
+            img.src = svg.src;
+        }
+        
+        function copyToClipboard() {
+            fetch('/portfolio-thumbnail.svg')
+                .then(response => response.text())
+                .then(svgCode => {
+                    navigator.clipboard.writeText(svgCode).then(() => {
+                        alert('SVG code copied to clipboard!');
+                    });
+                });
+        }
+    </script>
+</body>
+</html>
