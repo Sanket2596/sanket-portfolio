@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&display=swap');
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: 'Inter', system-ui, sans-serif;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+  }
+
+  /* Dark theme (default) */
+  :root {
+    color-scheme: dark;
+  }
+
+  .dark body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%);
+    color: #f8fafc;
+  }
+
+  /* Light theme */
+  .light body {
+    background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+    color: #1e293b;
+  }
+}
+
+@layer components {
+  .gradient-text {
+    @apply bg-gradient-to-r from-primary-400 to-accent-500 bg-clip-text text-transparent;
+  }
+  
+  .glass-effect {
+    @apply backdrop-blur-md border transition-all duration-300;
+  }
+
+  .dark .glass-effect {
+    @apply bg-white/10 border-white/20;
+  }
+
+  .light .glass-effect {
+    @apply bg-black/5 border-black/10;
+  }
+  
+  .card-hover {
+    @apply transition-all duration-300 hover:scale-105;
+  }
+
+  .dark .card-hover:hover {
+    @apply shadow-2xl shadow-primary-500/20;
+  }
+
+  .light .card-hover:hover {
+    @apply shadow-2xl shadow-primary-500/30;
+  }
+  
+  .section-padding {
+    @apply py-20 px-4 sm:px-6 lg:px-8;
+  }
+  
+  .container-max {
+    @apply max-w-7xl mx-auto;
+  }
+}
+
+@layer utilities {
+  .text-shadow {
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+  }
+  
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+}
