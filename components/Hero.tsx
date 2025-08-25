@@ -97,7 +97,7 @@ export default function Hero() {
             onClick={() => {
               // Download the actual PDF resume
               const link = document.createElement('a');
-              link.href = '/resume.pdf';
+              link.href = '/Sanket_Mungikar_Resume.pdf';
               link.download = 'Sanket_Mungikar_Resume.pdf';
               link.click();
             }}
