@@ -109,7 +109,7 @@ export default function Contact() {
             {/* Social Links */}
             <div className="flex items-center gap-4">
               <motion.a
-                href="https://github.com/sanketmungikar"
+                href="https://github.com/Sanket2596"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
@@ -120,7 +120,7 @@ export default function Contact() {
               </motion.a>
               
               <motion.a
-                href="https://linkedin.com/in/sanketmungikar"
+                href="https://linkedin.com/in/sanket-mungikar"
                 target="_blank"
                 rel="noopener noreferrer"
                 whileHover={{ scale: 1.1, y: -2 }}
