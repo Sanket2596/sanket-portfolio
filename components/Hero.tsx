@@ -126,7 +126,7 @@ export default function Hero() {
           className="flex items-center justify-center gap-6 mb-16"
         >
           <motion.a
-            href="https://github.com/YOUR_ACTUAL_GITHUB_USERNAME"
+            href="https://github.com/Sanket2596"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1, y: -2 }}
@@ -137,7 +137,7 @@ export default function Hero() {
           </motion.a>
           
           <motion.a
-            href="https://linkedin.com/in/YOUR_ACTUAL_LINKEDIN_USERNAME"
+            href="https://www.linkedin.com/in/sanket-mungikar/"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.1, y: -2 }}
