@@ -6,57 +6,81 @@ import { Code, Database, Cloud, Wrench, Brain } from 'lucide-react'
 export default function Skills() {
   const skillCategories = [
     {
-      title: "Programming Languages",
+      title: "Frontend Development",
       icon: <Code className="w-6 h-6" />,
       skills: [
-        { name: "Python", level: 90, color: "from-blue-500 to-cyan-500" },
+        { name: "React", level: 95, color: "from-cyan-400 to-blue-500" },
+        { name: "Angular", level: 90, color: "from-red-500 to-red-700" },
+        { name: "Vue.js", level: 85, color: "from-green-500 to-green-700" },
         { name: "TypeScript", level: 95, color: "from-blue-600 to-blue-700" },
         { name: "JavaScript", level: 95, color: "from-yellow-400 to-yellow-600" },
         { name: "HTML5/CSS3", level: 90, color: "from-orange-500 to-red-500" },
-        { name: "Java", level: 85, color: "from-red-500 to-red-700" },
-        { name: "C#", level: 80, color: "from-purple-500 to-purple-700" }
+        { name: "Tailwind CSS", level: 90, color: "from-cyan-400 to-blue-500" },
+        { name: "SASS", level: 85, color: "from-pink-500 to-pink-700" },
+        { name: "Shadcn UI", level: 80, color: "from-gray-500 to-gray-700" }
       ]
     },
     {
-      title: "Frameworks & Libraries",
+      title: "Backend Development",
       icon: <Brain className="w-6 h-6" />,
       skills: [
-        { name: "React.js", level: 95, color: "from-cyan-400 to-blue-500" },
-        { name: "Next.js", level: 90, color: "from-gray-800 to-black" },
         { name: "Node.js", level: 90, color: "from-green-500 to-green-700" },
-        { name: "Angular", level: 85, color: "from-red-500 to-red-700" },
-        { name: "React Native", level: 80, color: "from-blue-500 to-blue-600" },
-        { name: ".NET", level: 75, color: "from-purple-500 to-purple-700" }
+        { name: "Express.js", level: 90, color: "from-gray-600 to-gray-800" },
+        { name: ".NET (C#)", level: 85, color: "from-purple-500 to-purple-700" },
+        { name: "Spring Boot", level: 85, color: "from-green-600 to-green-800" },
+        { name: "Python (FastAPI)", level: 90, color: "from-blue-500 to-cyan-500" },
+        { name: "Python (Django)", level: 80, color: "from-green-500 to-green-700" },
+        { name: "Java (Spring)", level: 85, color: "from-red-500 to-red-700" },
+        { name: "Ruby on Rails", level: 75, color: "from-red-600 to-red-800" }
       ]
     },
     {
       title: "Cloud & DevOps",
       icon: <Cloud className="w-6 h-6" />,
       skills: [
-        { name: "AWS", level: 85, color: "from-orange-500 to-yellow-500" },
-        { name: "Docker", level: 80, color: "from-blue-500 to-blue-600" },
-        { name: "Kubernetes", level: 75, color: "from-blue-600 to-blue-800" },
-        { name: "Azure DevOps", level: 70, color: "from-blue-500 to-blue-700" }
+        { name: "AWS (Bedrock, RDS, Amplify)", level: 90, color: "from-orange-500 to-yellow-500" },
+        { name: "Azure (App Services, AKS)", level: 85, color: "from-blue-500 to-blue-700" },
+        { name: "Docker", level: 85, color: "from-blue-500 to-blue-600" },
+        { name: "Kubernetes", level: 80, color: "from-blue-600 to-blue-800" },
+        { name: "CI/CD Pipelines", level: 85, color: "from-green-500 to-green-700" },
+        { name: "Terraform", level: 75, color: "from-purple-500 to-purple-700" }
       ]
     },
     {
-      title: "Databases & Tools",
+      title: "Database Management",
       icon: <Database className="w-6 h-6" />,
       skills: [
-        { name: "PostgreSQL", level: 85, color: "from-blue-500 to-blue-700" },
-        { name: "MongoDB", level: 80, color: "from-green-500 to-green-700" },
-        { name: "Redis", level: 75, color: "from-red-500 to-red-700" },
-        { name: "GraphQL", level: 80, color: "from-pink-500 to-pink-700" }
+        { name: "PostgreSQL", level: 90, color: "from-blue-500 to-blue-700" },
+        { name: "MySQL", level: 85, color: "from-orange-500 to-orange-700" },
+        { name: "MongoDB", level: 85, color: "from-green-500 to-green-700" },
+        { name: "Redis", level: 80, color: "from-red-500 to-red-700" },
+        { name: "Prisma ORM", level: 85, color: "from-gray-500 to-gray-700" }
       ]
     },
     {
-      title: "Other Technologies",
+      title: "Security & Authentication",
       icon: <Wrench className="w-6 h-6" />,
       skills: [
-        { name: "Tailwind CSS", level: 90, color: "from-cyan-400 to-blue-500" },
-        { name: "Redux", level: 85, color: "from-purple-500 to-purple-700" },
-        { name: "Jest", level: 80, color: "from-red-500 to-red-700" },
-        { name: "Stripe API", level: 75, color: "from-blue-500 to-blue-700" }
+        { name: "OAuth 2.0", level: 90, color: "from-blue-500 to-blue-700" },
+        { name: "Auth0", level: 85, color: "from-red-500 to-red-700" },
+        { name: "JWT", level: 90, color: "from-purple-500 to-purple-700" },
+        { name: "RBAC", level: 85, color: "from-green-500 to-green-700" },
+        { name: "MFA", level: 80, color: "from-yellow-500 to-yellow-700" },
+        { name: "Input Validation", level: 90, color: "from-red-500 to-red-700" },
+        { name: "Audit Logging", level: 85, color: "from-gray-500 to-gray-700" }
+      ]
+    },
+    {
+      title: "API & Integration",
+      icon: <Code className="w-6 h-6" />,
+      skills: [
+        { name: "RESTful APIs", level: 95, color: "from-blue-500 to-blue-700" },
+        { name: "GraphQL", level: 85, color: "from-pink-500 to-pink-700" },
+        { name: "WebSockets", level: 85, color: "from-green-500 to-green-700" },
+        { name: "Kafka", level: 80, color: "from-orange-500 to-orange-700" },
+        { name: "Git/GitHub", level: 95, color: "from-gray-600 to-gray-800" },
+        { name: "GitLab", level: 80, color: "from-orange-500 to-orange-700" },
+        { name: "Bitbucket", level: 75, color: "from-blue-500 to-blue-700" }
       ]
     }
   ]
@@ -142,9 +166,9 @@ export default function Skills() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              "FastAPI", "RxJS", "Kafka", "MySQL", "Prisma ORM", "React Query",
-              "Zustand", "Shadcn", "WebSockets", "OAuth 2.0", "Auth0", "LLMs",
-              "AWS Bedrock", "RAG", "MCP Server", "Jest", "REST APIs"
+              "NgRx", "Redux", "Jest", "JUnit", "Cypress", "TDD",
+              "React Query", "Zustand", "RxJS", "LLMs", "RAG", "AWS Bedrock",
+              "MCP Server", "NER", "ML Models", "Blue-Green Deploy", "Terraform"
             ].map((skill, index) => (
               <motion.div
                 key={index}

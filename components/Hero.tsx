@@ -70,7 +70,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="text-2xl md:text-4xl text-secondary-300 mb-8"
           >
-            Software Engineer & Full-Stack Developer
+            Experienced Full-Stack Developer
           </motion.h2>
           
           <motion.p
@@ -79,8 +79,9 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="text-lg text-secondary-400 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            Passionate about building scalable web applications, AI-powered solutions, and creating 
-            exceptional user experiences. Specialized in React, Next.js, Node.js, and cloud technologies.
+            Experienced Full Stack Developer with 3+ years of experience in building scalable, secure, and high-performance web applications. 
+            Proficient in frontend and backend technologies, cloud deployments, state management, and API development. 
+            Strong focus on security, real-time data handling, and CI/CD automation.
           </motion.p>
         </motion.div>
 

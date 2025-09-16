@@ -8,51 +8,51 @@ export default function Projects() {
     {
       title: "Inventory Management Dashboard",
       period: "Nov 2024 – Feb 2025",
-      description: "A comprehensive full-stack inventory management system with real-time tracking, analytics, and user management capabilities.",
+      description: "A comprehensive full-stack inventory management system built with Next.js, Shadcn UI, and Zustand for state management, featuring real-time tracking and analytics.",
       image: "📊",
-      technologies: ["Next.js", "Shadcn", "Zustand", "Node.js", "Prisma ORM", "PostgreSQL", "React Query", "AWS RDS", "AWS Amplify"],
+      technologies: ["Next.js", "Shadcn UI", "Zustand", "Node.js", "Prisma ORM", "PostgreSQL", "React Query", "AWS RDS", "AWS Amplify"],
       highlights: [
-        "Full-stack dashboard with modern UI components",
-        "Real-time inventory tracking and management",
-        "Advanced analytics and reporting features",
-        "Secure user authentication and role-based access",
-        "Cloud deployment on AWS infrastructure"
+        "Full-stack dashboard with modern UI components using Shadcn",
+        "Efficient data handling with React Query for optimal performance",
+        "State management using Zustand for scalable architecture",
+        "Backend services with Node.js and Prisma ORM",
+        "Cloud deployment on AWS RDS and Amplify"
       ],
-      github: "https://github.com/sanketmungikar/inventory-dashboard",
+      github: "https://github.com/Sanket2596/inventory-dashboard",
       live: "#",
       category: "Full-Stack"
     },
     {
       title: "RocketMindAI - AI Code Analysis Tool",
-      period: "June 2025",
-      description: "An AI-powered tool for analyzing large codebases, providing onboarding documentation, architecture diagrams, and automated code quality reviews.",
+      period: "Hackathon Project",
+      description: "An AI-powered tool where users input a repository link to interactively view onboarding documentation, architecture diagrams, and automated code quality reviews.",
       image: "🤖",
-      technologies: ["Angular", "Python", "FastAPI", "AWS Bedrock", "MCP Server", "LLMs", "RAG", "Intelligent Chunking"],
+      technologies: ["Angular", "Python", "FastAPI", "AWS Bedrock", "MCP Server", "LLMs", "RAG", "Intelligent Analysis"],
       highlights: [
-        "AI-powered codebase analysis and documentation",
-        "Interactive visualization of architecture diagrams",
-        "Automated code quality assessment",
-        "MCP server integration with AWS Bedrock",
-        "Real-time analysis and insights generation"
+        "AI-powered codebase analysis using AWS Bedrock LLM",
+        "MCP server integration for intelligent codebase analysis",
+        "Interactive documentation and architecture visualization",
+        "Automated code quality reviews and insights",
+        "Organized into intuitive tabs for quick navigation"
       ],
-      github: "https://github.com/sanketmungikar/rocketmind-ai",
+      github: "https://github.com/Sanket2596/rocketmind-ai",
       live: "#",
       category: "AI/ML"
     },
     {
       title: "Event Ticketing Platform",
       period: "Aug 2024 – April 2025",
-      description: "A modern event ticketing platform with real-time availability tracking, payment processing, and comprehensive seller management.",
+      description: "A modern event ticketing platform with real-time availability tracking, payment processing, and comprehensive seller management capabilities.",
       image: "🎫",
       technologies: ["Next.js", "TypeScript", "Stripe API", "WebSockets", "Redis", "Rate Limiting", "Real-time Updates"],
       highlights: [
-        "Real-time ticket availability tracking",
-        "Integrated Stripe payment processing",
-        "Seller dashboard with analytics",
-        "Queue management for sold-out events",
-        "Performance optimization with Redis caching"
+        "Real-time ticket availability using WebSockets",
+        "Queue systems for sold-out events and automatic reallocation",
+        "Enhanced performance with Redis caching and rate limiting",
+        "Dedicated seller dashboard with CRUD operations",
+        "Stripe integration for secure payment processing"
       ],
-      github: "https://github.com/sanketmungikar/event-ticketing",
+      github: "https://github.com/Sanket2596/event-ticketing",
       live: "#",
       category: "Full-Stack"
     }

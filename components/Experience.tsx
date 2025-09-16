@@ -13,20 +13,21 @@ export default function Experience() {
       logo: "🏠",
       projects: [
         {
-          name: "Navigator Pro (AI-Powered Broker Chatbot)",
+          name: "AI-Powered Broker Chatbot",
           highlights: [
-            "Developed RAG-powered chat feature using LLMs and AWS Bedrock",
-            "Implemented OAuth 2.0 authentication with Auth0, MFA, SSO, and role-based ACLs",
-            "Built Angular-based frontend using Rocket Design System",
-            "Utilized NgRx for state management and optimized performance"
+            "Built an AI-powered chatbot using Retrieval-Augmented Generation via AWS Bedrock",
+            "Enabled mortgage brokers to replace paper workflows with intelligent, context-aware assistance",
+            "Implemented OAuth 2.0 with Auth0 for secure authentication, enabling SSO, MFA, and role-based access control",
+            "Designed responsive Angular frontend using Rocket Design System with persistent chat history",
+            "Utilized NgRx for managing state across chat history, sessions, and UI"
           ]
         },
         {
-          name: "Broker Pro Application",
+          name: "Fee Calculation API",
           highlights: [
-            "Developed .NET-based RESTful fee calculation API",
-            "Analyzed API payloads to optimize parameter requirements",
-            "Collaborated on Kafka-based architecture for pricing data updates"
+            "Developed .NET-based RESTful API for fee calculation using loan categories and external pricing",
+            "Analyzed legacy payloads to streamline parameters and improve efficiency",
+            "Studied Kafka-based data pipelines for pricing updates integration in backend services"
           ]
         }
       ]
@@ -41,28 +42,39 @@ export default function Experience() {
         {
           name: "Event Ticketing Platform",
           highlights: [
-            "Designed Next.js/TypeScript platform with Stripe payment integration",
-            "Implemented real-time ticket tracking with WebSockets",
-            "Built seller dashboard with CRUD capabilities and analytics",
-            "Improved response time by 11% through Redis caching and rate limiting"
+            "Engineered full-stack event ticketing platform using Next.js, TypeScript, and Stripe integration",
+            "Integrated real-time ticket availability using WebSockets with queue systems for sold-out events",
+            "Enhanced backend performance with Redis caching, rate limiting, and optimized data handling",
+            "Reduced server load and improved response times by 11% during peak traffic",
+            "Created dedicated seller dashboard supporting full CRUD for events and tickets"
           ]
         }
       ]
     },
     {
-      company: "Atos",
+      company: "CRISIL",
       location: "Mumbai, India",
-      position: "Software Engineer",
-      period: "Jan 2020 – June 2022",
-      logo: "🏥",
+      position: "Full-Stack Developer",
+      period: "May 2019 – Aug 2022",
+      logo: "📊",
       projects: [
         {
-          name: "MyBSWHealth Application",
+          name: "SMART Financial Research Platform",
           highlights: [
-            "Developed React/React Native scheduling screen for 179K+ rated app",
-            "Built interactive map-based doctor and facility locator",
-            "Reduced search latency by 43% through map optimization",
-            "Implemented Redux state management and Jest testing"
+            "Developed CRISIL's SMART financial research platform, automating analyst workflows",
+            "Built modular, responsive frontends in React with Redux and Kafka integration for real-time data updates",
+            "Improved UI usability and performance by 40% through component optimization and code splitting",
+            "Designed backend services using Spring Boot with secure RESTful APIs and JWT authentication",
+            "Integrated pre-trained Named Entity Recognition (NER) ML model with backend services"
+          ]
+        },
+        {
+          name: "DevOps & Security Implementation",
+          highlights: [
+            "Deployed backend services on Azure App Services and AKS using blue-green deployments",
+            "Reduced system downtime by 20% and improved production stability significantly",
+            "Implemented strong security controls including role-based access, tenant isolation, and audit logging",
+            "Achieved 85%+ test coverage with JUnit and Jest, reducing production bugs by 35%"
           ]
         }
       ]
@@ -187,17 +199,17 @@ export default function Experience() {
               {
                 icon: <Award className="w-8 h-8 text-yellow-400" />,
                 title: "Performance Optimization",
-                description: "Improved response time by 11% through Redis caching and optimized data flows"
+                description: "Improved UI performance by 40% and response times by 11% through optimization and caching"
               },
               {
                 icon: <Code className="w-8 h-8 text-primary-400" />,
                 title: "AI Integration",
-                description: "Successfully implemented RAG-powered chatbot using AWS Bedrock and LLMs"
+                description: "Successfully implemented RAG-powered chatbot using AWS Bedrock and ML model integration"
               },
               {
                 icon: <Database className="w-8 h-8 text-green-400" />,
-                title: "Scalable Architecture",
-                description: "Built real-time systems with WebSockets and Kafka for high-demand scenarios"
+                title: "System Reliability",
+                description: "Reduced system downtime by 20% and production bugs by 35% through robust architecture"
               }
             ].map((achievement, index) => (
               <motion.div

@@ -47,20 +47,19 @@ export default function About() {
               Who I Am
             </h3>
             <p className="text-secondary-300 leading-relaxed mb-6">
-              I'm a passionate Software Engineer with a strong foundation in full-stack development 
-              and a keen interest in emerging technologies. My journey in software development 
-              has been driven by curiosity and a desire to create impactful solutions.
+              I'm an experienced Full Stack Developer with 3+ years of experience in building scalable, 
+              secure, and high-performance web applications. My journey spans across diverse industries 
+              from financial services at CRISIL to fintech at Rocket Mortgage and event management at PopVia LLC.
             </p>
             <p className="text-secondary-300 leading-relaxed mb-6">
-              With experience at companies like Rocket Mortgage and PopVia LLC, I've developed 
-              expertise in building scalable web applications, AI-powered solutions, and 
-              real-time systems. I believe in writing clean, maintainable code and staying 
-              up-to-date with the latest industry trends.
+              I specialize in frontend and backend technologies, cloud deployments, state management, and API development. 
+              My strong focus on security, real-time data handling, and CI/CD automation has enabled me to deliver 
+              efficient solutions through cross-functional collaboration and modern development practices.
             </p>
             <p className="text-secondary-300 leading-relaxed">
-              When I'm not coding, you can find me exploring new technologies, contributing 
-              to open-source projects, or participating in hackathons to push the boundaries 
-              of what's possible.
+              From building AI-powered chatbots using AWS Bedrock to developing real-time ticketing platforms with WebSockets, 
+              I'm passionate about leveraging cutting-edge technologies to solve complex business challenges and create 
+              exceptional user experiences.
             </p>
           </motion.div>
 
