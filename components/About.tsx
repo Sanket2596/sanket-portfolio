@@ -47,18 +47,18 @@ export default function About() {
               Who I Am
             </h3>
             <p className="text-secondary-300 leading-relaxed mb-6">
-              I'm an experienced Full Stack Developer with 3+ years of experience in building scalable, 
+              I'm a Full Stack Developer with 5+ years of experience building scalable, 
               secure, and high-performance web applications. My journey spans across diverse industries 
-              from financial services at CRISIL to fintech at Rocket Mortgage and event management at PopVia LLC.
+              from financial services at CRISIL to e-commerce analytics at BigCommerce.
             </p>
             <p className="text-secondary-300 leading-relaxed mb-6">
-              I specialize in frontend and backend technologies, cloud deployments, state management, and API development. 
-              My strong focus on security, real-time data handling, and CI/CD automation has enabled me to deliver 
-              efficient solutions through cross-functional collaboration and modern development practices.
+              I specialize in front-end and back-end technologies, databases, cloud platforms, DevOps, and AI/ML integration. 
+              Skilled in microservices, RESTful APIs, CI/CD, and responsive design, I deliver 
+              efficient, user-centric, and reliable software solutions.
             </p>
             <p className="text-secondary-300 leading-relaxed">
-              From building AI-powered chatbots using AWS Bedrock to developing real-time ticketing platforms with WebSockets, 
-              I'm passionate about leveraging cutting-edge technologies to solve complex business challenges and create 
+              From building AI-powered analytics platforms with BERT models to developing real-time financial research tools with Kafka, 
+              I'm passionate about leveraging cutting-edge technologies including AI/ML to solve complex business challenges and create 
               exceptional user experiences.
             </p>
           </motion.div>

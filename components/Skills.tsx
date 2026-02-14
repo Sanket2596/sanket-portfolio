@@ -9,78 +9,73 @@ export default function Skills() {
       title: "Frontend Development",
       icon: <Code className="w-6 h-6" />,
       skills: [
-        { name: "React", level: 95, color: "from-cyan-400 to-blue-500" },
+        { name: "React / React Query / Redux", level: 95, color: "from-cyan-400 to-blue-500" },
         { name: "Angular", level: 90, color: "from-red-500 to-red-700" },
         { name: "Vue.js", level: 85, color: "from-green-500 to-green-700" },
-        { name: "TypeScript", level: 95, color: "from-blue-600 to-blue-700" },
-        { name: "JavaScript", level: 95, color: "from-yellow-400 to-yellow-600" },
-        { name: "HTML5/CSS3", level: 90, color: "from-orange-500 to-red-500" },
-        { name: "Tailwind CSS", level: 90, color: "from-cyan-400 to-blue-500" },
-        { name: "SASS", level: 85, color: "from-pink-500 to-pink-700" },
-        { name: "Shadcn UI", level: 80, color: "from-gray-500 to-gray-700" }
+        { name: "Next.js", level: 90, color: "from-gray-600 to-gray-800" },
+        { name: "TypeScript / JavaScript", level: 95, color: "from-blue-600 to-blue-700" },
+        { name: "HTML5 / CSS3", level: 90, color: "from-orange-500 to-red-500" },
+        { name: "Tailwind CSS / Bootstrap", level: 90, color: "from-cyan-400 to-blue-500" },
+        { name: "Chart.js / Material-UI", level: 85, color: "from-pink-500 to-pink-700" }
       ]
     },
     {
       title: "Backend Development",
       icon: <Brain className="w-6 h-6" />,
       skills: [
-        { name: "Node.js", level: 90, color: "from-green-500 to-green-700" },
-        { name: "Express.js", level: 90, color: "from-gray-600 to-gray-800" },
-        { name: ".NET (C#)", level: 85, color: "from-purple-500 to-purple-700" },
-        { name: "Spring Boot", level: 85, color: "from-green-600 to-green-800" },
-        { name: "Python (FastAPI)", level: 90, color: "from-blue-500 to-cyan-500" },
-        { name: "Python (Django)", level: 80, color: "from-green-500 to-green-700" },
-        { name: "Java (Spring)", level: 85, color: "from-red-500 to-red-700" },
-        { name: "Ruby on Rails", level: 75, color: "from-red-600 to-red-800" }
+        { name: "Java / Spring Boot / Spring Cloud", level: 90, color: "from-green-600 to-green-800" },
+        { name: "Node.js / Express.js", level: 90, color: "from-green-500 to-green-700" },
+        { name: "Python (FastAPI / Flask / Celery)", level: 90, color: "from-blue-500 to-cyan-500" },
+        { name: ".NET / ASP.NET (C#)", level: 85, color: "from-purple-500 to-purple-700" },
+        { name: "Spring Security / Hibernate", level: 85, color: "from-red-500 to-red-700" },
+        { name: "WebSockets / Kafka", level: 85, color: "from-orange-500 to-orange-700" }
       ]
     },
     {
       title: "Cloud & DevOps",
       icon: <Cloud className="w-6 h-6" />,
       skills: [
-        { name: "AWS (Bedrock, RDS, Amplify)", level: 90, color: "from-orange-500 to-yellow-500" },
-        { name: "Azure (App Services, AKS)", level: 85, color: "from-blue-500 to-blue-700" },
-        { name: "Docker", level: 85, color: "from-blue-500 to-blue-600" },
-        { name: "Kubernetes", level: 80, color: "from-blue-600 to-blue-800" },
-        { name: "CI/CD Pipelines", level: 85, color: "from-green-500 to-green-700" },
-        { name: "Terraform", level: 75, color: "from-purple-500 to-purple-700" }
+        { name: "AWS (Lambda, EKS, Fargate, Cognito)", level: 90, color: "from-orange-500 to-yellow-500" },
+        { name: "Azure (AKS, DevOps, App Services)", level: 85, color: "from-blue-500 to-blue-700" },
+        { name: "Docker / Kubernetes / Helm", level: 90, color: "from-blue-500 to-blue-600" },
+        { name: "Jenkins / GitHub Actions / GitLab CI", level: 85, color: "from-gray-600 to-gray-800" },
+        { name: "Terraform / Ansible", level: 80, color: "from-purple-500 to-purple-700" },
+        { name: "Prometheus / Grafana", level: 80, color: "from-red-500 to-orange-500" }
       ]
     },
     {
-      title: "Database Management",
+      title: "Databases & Data",
       icon: <Database className="w-6 h-6" />,
       skills: [
-        { name: "PostgreSQL", level: 90, color: "from-blue-500 to-blue-700" },
-        { name: "MySQL", level: 85, color: "from-orange-500 to-orange-700" },
-        { name: "MongoDB", level: 85, color: "from-green-500 to-green-700" },
-        { name: "Redis", level: 80, color: "from-red-500 to-red-700" },
-        { name: "Prisma ORM", level: 85, color: "from-gray-500 to-gray-700" }
+        { name: "PostgreSQL / MySQL / Oracle SQL", level: 90, color: "from-blue-500 to-blue-700" },
+        { name: "MongoDB / Cassandra", level: 85, color: "from-green-500 to-green-700" },
+        { name: "Redis / Elasticsearch", level: 85, color: "from-red-500 to-red-700" },
+        { name: "Apache Kafka / Apache Flink", level: 80, color: "from-orange-500 to-orange-700" },
+        { name: "Firebase / GraphQL", level: 80, color: "from-yellow-500 to-yellow-700" },
+        { name: "Pinecone / Weaviate / FAISS", level: 75, color: "from-purple-500 to-purple-700" }
       ]
     },
     {
       title: "Security & Authentication",
       icon: <Wrench className="w-6 h-6" />,
       skills: [
-        { name: "OAuth 2.0", level: 90, color: "from-blue-500 to-blue-700" },
-        { name: "Auth0", level: 85, color: "from-red-500 to-red-700" },
-        { name: "JWT", level: 90, color: "from-purple-500 to-purple-700" },
-        { name: "RBAC", level: 85, color: "from-green-500 to-green-700" },
-        { name: "MFA", level: 80, color: "from-yellow-500 to-yellow-700" },
-        { name: "Input Validation", level: 90, color: "from-red-500 to-red-700" },
-        { name: "Audit Logging", level: 85, color: "from-gray-500 to-gray-700" }
+        { name: "OAuth 2.0 / JWT / OpenID Connect", level: 90, color: "from-blue-500 to-blue-700" },
+        { name: "SSL/TLS / SAML / SSO", level: 85, color: "from-green-500 to-green-700" },
+        { name: "AWS WAF & Shield", level: 85, color: "from-orange-500 to-orange-700" },
+        { name: "RBAC / CORS / CSRF / XSS Prevention", level: 90, color: "from-red-500 to-red-700" },
+        { name: "OWASP & GDPR Compliance", level: 85, color: "from-purple-500 to-purple-700" },
+        { name: "Encryption / Audit Logging", level: 85, color: "from-gray-500 to-gray-700" }
       ]
     },
     {
-      title: "API & Integration",
-      icon: <Code className="w-6 h-6" />,
+      title: "AI & Machine Learning",
+      icon: <Brain className="w-6 h-6" />,
       skills: [
-        { name: "RESTful APIs", level: 95, color: "from-blue-500 to-blue-700" },
-        { name: "GraphQL", level: 85, color: "from-pink-500 to-pink-700" },
-        { name: "WebSockets", level: 85, color: "from-green-500 to-green-700" },
-        { name: "Kafka", level: 80, color: "from-orange-500 to-orange-700" },
-        { name: "Git/GitHub", level: 95, color: "from-gray-600 to-gray-800" },
-        { name: "GitLab", level: 80, color: "from-orange-500 to-orange-700" },
-        { name: "Bitbucket", level: 75, color: "from-blue-500 to-blue-700" }
+        { name: "OpenAI GPT-4 / Claude / LLaMA", level: 85, color: "from-purple-500 to-pink-500" },
+        { name: "LangChain / LlamaIndex / RAG", level: 85, color: "from-blue-500 to-purple-500" },
+        { name: "TensorFlow / PyTorch / Scikit-learn", level: 80, color: "from-orange-500 to-red-500" },
+        { name: "NLP (spaCy, BERT, RoBERTa)", level: 80, color: "from-green-500 to-cyan-500" },
+        { name: "AWS Bedrock / Cursor AI", level: 80, color: "from-yellow-500 to-orange-500" }
       ]
     }
   ]
@@ -166,9 +161,11 @@ export default function Skills() {
           </h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {[
-              "NgRx", "Redux", "Jest", "JUnit", "Cypress", "TDD",
-              "React Query", "Zustand", "RxJS", "LLMs", "RAG", "AWS Bedrock",
-              "MCP Server", "NER", "ML Models", "Blue-Green Deploy", "Terraform"
+              "JUnit", "Jest", "Cypress", "Selenium", "Pytest", "Mockito",
+              "SonarQube", "JMeter", "Postman", "Swagger", "TDD", "BDD",
+              "Microservices", "Event-Driven Architecture", "DDD", "Serverless",
+              "Agile Scrum", "Kanban", "Figma", "Adobe XD", "Webpack", "SASS",
+              "A/B Testing", "Blue-Green Deploy", "Auto-Scaling", "Load Balancing"
             ].map((skill, index) => (
               <motion.div
                 key={index}

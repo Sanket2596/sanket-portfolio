@@ -70,7 +70,7 @@ export default function Hero() {
             transition={{ delay: 0.6, duration: 0.6 }}
             className="text-2xl md:text-4xl text-secondary-300 mb-8"
           >
-            Experienced Full-Stack Developer
+            Full Stack Developer
           </motion.h2>
           
           <motion.p
@@ -79,9 +79,9 @@ export default function Hero() {
             transition={{ delay: 0.8, duration: 0.6 }}
             className="text-lg text-secondary-400 max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            Experienced Full Stack Developer with 3+ years of experience in building scalable, secure, and high-performance web applications. 
-            Proficient in frontend and backend technologies, cloud deployments, state management, and API development. 
-            Strong focus on security, real-time data handling, and CI/CD automation.
+            Full Stack Developer with 5+ years of experience building scalable, secure, and high-performance web applications. 
+            Proficient in front-end and back-end technologies, databases, cloud platforms, DevOps, and AI/ML integration. 
+            Skilled in microservices, RESTful APIs, CI/CD, and responsive design.
           </motion.p>
         </motion.div>
 

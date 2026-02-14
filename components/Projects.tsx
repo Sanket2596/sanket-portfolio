@@ -8,7 +8,7 @@ export default function Projects() {
     {
       title: "Inventory Management Dashboard",
       period: "Nov 2024 – Feb 2025",
-      description: "A comprehensive full-stack inventory management system built with Next.js, Shadcn UI, and Zustand for state management, featuring real-time tracking and analytics.",
+      description: "A full-stack inventory management dashboard using Next.js, Shadcn and Zustand for state management, with backend services in Node.js, Prisma ORM, and PostgreSQL, deployed on AWS.",
       image: "📊",
       technologies: ["Next.js", "Shadcn UI", "Zustand", "Node.js", "Prisma ORM", "PostgreSQL", "React Query", "AWS RDS", "AWS Amplify"],
       highlights: [
@@ -23,38 +23,38 @@ export default function Projects() {
       category: "Full-Stack"
     },
     {
+      title: "ClearPathAI - Logistics Recovery System",
+      period: "AI/ML Project",
+      description: "An AI-powered logistics package recovery system using LangChain and OpenAI GPT-4 with a ReAct pattern, enabling autonomous investigation of lost/misrouted packages.",
+      image: "📦",
+      technologies: ["LangChain", "OpenAI GPT-4", "Next.js", "TypeScript", "FastAPI", "Docker", "PostgreSQL", "Redis", "WebSockets", "Nginx"],
+      highlights: [
+        "ReAct (Reasoning + Acting) pattern for autonomous package investigation and recovery",
+        "Distributed microservices architecture with 7+ containerized services using Docker and FastAPI",
+        "Real-time logistics dashboard with Next.js, TypeScript, and WebSocket integration for live tracking",
+        "Anomaly detection and AI agent activity monitoring with SQLAlchemy and Redis",
+        "Deployed on Vercel with Nginx API Gateway and inter-service communication via REST and event-driven patterns"
+      ],
+      github: "https://github.com/Sanket2596/clearpath-ai",
+      live: "#",
+      category: "AI/ML"
+    },
+    {
       title: "RocketMindAI - AI Code Analysis Tool",
       period: "Hackathon Project",
-      description: "An AI-powered tool where users input a repository link to interactively view onboarding documentation, architecture diagrams, and automated code quality reviews.",
+      description: "An AI-driven tool that analyzes repositories, providing interactive onboarding documentation, architecture diagrams, and automated code quality reviews.",
       image: "🤖",
-      technologies: ["Angular", "Python", "FastAPI", "AWS Bedrock", "MCP Server", "LLMs", "RAG", "Intelligent Analysis"],
+      technologies: ["Angular", "Python", "FastAPI", "AWS Bedrock", "LLM", "Intelligent Chunking", "RAG"],
       highlights: [
-        "AI-powered codebase analysis using AWS Bedrock LLM",
-        "MCP server integration for intelligent codebase analysis",
-        "Interactive documentation and architecture visualization",
-        "Automated code quality reviews and insights",
+        "AI-powered codebase analysis using AWS Bedrock LLM with intelligent chunking",
+        "Interactive onboarding documentation and architecture diagram generation",
+        "Automated code quality reviews with real-time insights and visualizations",
+        "Angular frontend with Python FastAPI backend for seamless interaction",
         "Organized into intuitive tabs for quick navigation"
       ],
       github: "https://github.com/Sanket2596/rocketmind-ai",
       live: "#",
       category: "AI/ML"
-    },
-    {
-      title: "Event Ticketing Platform",
-      period: "Aug 2024 – April 2025",
-      description: "A modern event ticketing platform with real-time availability tracking, payment processing, and comprehensive seller management capabilities.",
-      image: "🎫",
-      technologies: ["Next.js", "TypeScript", "Stripe API", "WebSockets", "Redis", "Rate Limiting", "Real-time Updates"],
-      highlights: [
-        "Real-time ticket availability using WebSockets",
-        "Queue systems for sold-out events and automatic reallocation",
-        "Enhanced performance with Redis caching and rate limiting",
-        "Dedicated seller dashboard with CRUD operations",
-        "Stripe integration for secure payment processing"
-      ],
-      github: "https://github.com/Sanket2596/event-ticketing",
-      live: "#",
-      category: "Full-Stack"
     }
   ]
 

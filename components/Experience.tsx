@@ -6,47 +6,27 @@ import { Building2, Calendar, MapPin, ExternalLink, Award, Code, Database, Cloud
 export default function Experience() {
   const experiences = [
     {
-      company: "Rocket Mortgage",
-      location: "Detroit, MI",
-      position: "Software Engineer Intern",
-      period: "May 2025 – Aug 2025",
-      logo: "🏠",
+      company: "BigCommerce",
+      location: "Remote, USA",
+      position: "Full Stack Developer",
+      period: "Jan 2024 – Present",
+      logo: "🛒",
       projects: [
         {
-          name: "AI-Powered Broker Chatbot",
+          name: "SmartCommerce Analytics Platform",
           highlights: [
-            "Built an AI-powered chatbot using Retrieval-Augmented Generation via AWS Bedrock",
-            "Enabled mortgage brokers to replace paper workflows with intelligent, context-aware assistance",
-            "Implemented OAuth 2.0 with Auth0 for secure authentication, enabling SSO, MFA, and role-based access control",
-            "Designed responsive Angular frontend using Rocket Design System with persistent chat history",
-            "Utilized NgRx for managing state across chat history, sessions, and UI"
+            "Developed AI-powered insights integrating BERT and DistilBERT models with an AI Insights Agent, improving operational efficiency by 20%",
+            "Built RESTful APIs (/order-forecast, /customer-segmentation, /pricing-optimizer) using Python, FastAPI, and SQLAlchemy, reducing latency by 25%",
+            "Designed PredictiveAnalyticsService and CognitiveCommerceService microservices using Python, RabbitMQ, and Celery, increasing inventory accuracy by 18%",
+            "Created interactive dashboards using React, TypeScript, and Redux with GraphQL subscriptions and WebSockets, improving merchant insights by 24%",
+            "Implemented OAuth 2.0 and JWT authentication supporting SSO for enterprise systems, ensuring SOC 2 and PCI DSS compliance, improving onboarding efficiency by 33%"
           ]
         },
         {
-          name: "Fee Calculation API",
+          name: "CI/CD & Infrastructure",
           highlights: [
-            "Developed .NET-based RESTful API for fee calculation using loan categories and external pricing",
-            "Analyzed legacy payloads to streamline parameters and improve efficiency",
-            "Studied Kafka-based data pipelines for pricing updates integration in backend services"
-          ]
-        }
-      ]
-    },
-    {
-      company: "PopVia LLC",
-      location: "Colorado, USA",
-      position: "Full-Stack Engineer",
-      period: "Aug 2024 – April 2025",
-      logo: "🎫",
-      projects: [
-        {
-          name: "Event Ticketing Platform",
-          highlights: [
-            "Engineered full-stack event ticketing platform using Next.js, TypeScript, and Stripe integration",
-            "Integrated real-time ticket availability using WebSockets with queue systems for sold-out events",
-            "Enhanced backend performance with Redis caching, rate limiting, and optimized data handling",
-            "Reduced server load and improved response times by 11% during peak traffic",
-            "Created dedicated seller dashboard supporting full CRUD for events and tickets"
+            "Developed CI/CD pipelines using GitHub Actions, Jenkins, and ArgoCD with automated testing using PyTest, Selenium, and Robot Framework, reducing production defects by 28%",
+            "Containerized services using Docker, deployed to AWS EKS Kubernetes clusters with Prometheus, Grafana, CloudWatch, and OpenTelemetry, achieving 99.9% uptime"
           ]
         }
       ]
@@ -199,17 +179,17 @@ export default function Experience() {
               {
                 icon: <Award className="w-8 h-8 text-yellow-400" />,
                 title: "Performance Optimization",
-                description: "Improved UI performance by 40% and response times by 11% through optimization and caching"
+                description: "Improved UI performance by 40%, reduced API latency by 25%, and boosted merchant decision-making insights by 24%"
               },
               {
                 icon: <Code className="w-8 h-8 text-primary-400" />,
-                title: "AI Integration",
-                description: "Successfully implemented RAG-powered chatbot using AWS Bedrock and ML model integration"
+                title: "AI & ML Integration",
+                description: "Integrated BERT/DistilBERT models, NER ML models, and AI agents for predictive analytics and anomaly detection"
               },
               {
                 icon: <Database className="w-8 h-8 text-green-400" />,
                 title: "System Reliability",
-                description: "Reduced system downtime by 20% and production bugs by 35% through robust architecture"
+                description: "Achieved 99.9% uptime, reduced system downtime by 20%, and cut production bugs by 35% through robust architecture"
               }
             ].map((achievement, index) => (
               <motion.div

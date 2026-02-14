@@ -29,8 +29,8 @@ export default function Contact() {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      value: "sanketmungikar25@gmail.com",
-      link: "mailto:sanketmungikar25@gmail.com"
+      value: "sanketmungikar7@gmail.com",
+      link: "mailto:sanketmungikar7@gmail.com"
     },
     {
       icon: <Phone className="w-6 h-6" />,
